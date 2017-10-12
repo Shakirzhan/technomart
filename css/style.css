@@ -184,3 +184,131 @@ body {
 	color: #aac39b;
 	background-color: #518534;
 }
+
+.main-header .top-blocks .same {
+	float: left;
+	margin-right: 20px;	
+} 
+
+.main-header .top-blocks .description {
+	width: 197px;
+	min-height: 109px;
+	padding: 49px 51px 0 52px;
+}
+
+.main-header .description p {
+	margin: 0;
+	font-size: 16px;
+	line-height: 23px;
+	color: #ee3643;
+}
+
+.main-header .top-blocks .communications {
+	width: 300px;
+	min-height: 112px;
+	padding-top: 46px;
+}
+
+.main-header .communications .phone {
+	position: relative;
+	display: block;
+	width: 193px;
+	padding: 8px 0 10px 71px;
+	font-size: 21px;
+	line-height: 22px;
+	color: #e9292a;
+	border: 3px solid #ffffff;
+}
+
+.main-header .communications .phone:before {
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 12px;
+	width: 19px;
+	height: 19px;
+	background-color: transparent;
+	background-image: url("../img/sprite.png");
+	background-repeat: no-repeat;
+	background-position: -320px -240px;
+}
+
+.main-header .communications .address {
+	display: inline-block;
+	padding: 4px 10px 0;
+	font-size: 14px;
+	line-height: 24px;
+	color: #32425c;
+}
+
+.main-header .top-blocks .user-block {
+	float: right;
+	width: 280px;
+	min-height: 112px;
+	padding: 46px 0 0 20px;
+}
+
+.main-header .user-block .login {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 72px;
+	padding: 11px 0;
+	padding-left: 48px;
+	font-size: 21px;
+	line-height: 22px;
+	text-decoration: none;
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.main-header .user-block .login:hover {
+	color: #ee3643;
+}
+
+.main-header .user-block .login:active {
+	color: #cacaca;
+}
+
+.main-header .user-block .login::before {
+	content: "";
+	position: absolute;
+	top: 14px;
+	left: 15px;
+	width: 20px;
+	height: 17px;
+	background-color: transparent;
+	background-image: url("../img/sprite.png");
+	background-position: -20px -340px;
+	background-repeat: no-repeat;
+	opacity: 0.3;
+}
+
+.main-header .user-block .login:hover::before {
+	opacity: 1;
+}
+
+.main-header .user-block .login:active::before {
+	opacity: 0.3;
+}
+
+.main-header .user-block .registration {
+	float: right;
+	display: block;
+	width: 125px;
+	padding: 10px 0;
+	padding-left: 25px;
+	font-size: 21px;
+	line-height: 22px;
+	text-decoration: none;
+	color: #000000;
+	background-color: #ffffff;
+} 
+
+.main-header .user-block .registration:hover {
+	color: #ee3643;
+}
+
+.main-header .user-block .registration:active {
+	color: #cacaca;
+}
