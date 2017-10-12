@@ -1,0 +1,186 @@
+body {
+	margin: 0;
+	padding: 0;
+	min-width: 960px;
+	background-color: #ffffff;
+	font-size: 17px;
+	line-height: 18px;
+	font-family: "Cuprum", "Arial", sans-serif;
+	color: #ffffff;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding:  0 10px;
+}
+
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.main-header {
+	padding-bottom: 60px;
+	background-color: #f1f5f7;
+}
+
+.main-header .top-menu {
+	background-color: #293449;
+}
+
+.main-header .top-menu .logo {
+	position: relative;
+	float: left;
+	width: 220px;
+	height: 42px;
+}
+
+.main-header .logo a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	width: 100%;
+	height: 32px;
+	padding-top: 10px;
+	font-size: 24px;
+	line-height: 24px;
+	font-family: "Cuprum", "Arial", sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	color: #ffffff;
+	background-color: #ee3643;
+	border-bottom: 5px solid #b52933;
+}
+
+.main-header .logo a:hover {
+	background-color: #ca2c37;
+	border-bottom: 5px solid #9a212a;
+}
+
+.main-header .logo a:active {
+	background-color: #ba2732;
+	border-bottom: 5px solid #8e1e26;
+}
+
+.main-header .dexter {
+	float: right;
+	width: 720px;
+}
+
+.main-header .dexter input[type=text] {
+	float: left;
+	width: 181px;
+	padding: 12px 49px;
+	padding-right: 40px;
+	font-size: 17px;
+	line-height: 18px;
+	font-family: "Cuprum", "Arial", sans-serif;
+	color: #ffffff;
+	border: none;
+	background-color: #293449;
+	outline: none;
+}
+
+.main-header .dexter input.search {
+	background-image: url("../img/sprite.png");
+	background-repeat: no-repeat;
+	background-position: -3px -28px;
+}
+
+.main-header .dexter input:hover.search {
+	cursor: text;
+	background-image: url("../img/sprite.png");
+	background-repeat: no-repeat;
+	background-position: -3px -128px;
+	background-color: #212a3a; 
+}
+
+.main-header .dexter input:focus.search {
+	background-image: url("../img/sprite.png");
+	background-repeat: no-repeat;
+	background-position: -3px -228px;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.main-header .dexter :hover::-webkit-input-placeholder {color: #ffffff}
+.main-header .dexter :hover::-moz-placeholder          {color: #ffffff}
+.main-header .dexter :hover:-moz-placeholder           {color: #ffffff}
+.main-header .dexter :hover:-ms-input-placeholder      {color: #ffffff}
+
+.main-header .dexter .same {
+	position: relative;
+	float: left;
+	width: 106px;
+	padding: 12px 0;
+	padding-left: 44px;
+	font-size: 17px;
+	line-height: 18px;
+	font-family: "Cuprum", "Arial", sans-serif;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.main-header .dexter .same:hover {
+	background-color: #212a3a;
+}
+
+.main-header .dexter .same:active {
+	color: #a2a5a9;
+	background-color: #161d29;
+}
+
+.main-header .dexter .bookmark::before,
+.main-header .dexter .basket::before {
+	content: "";
+	position: absolute;
+	top: 12px;
+	left: 14px;
+	width: 20px;
+	height: 20px;
+	background-color: transparent;
+	background-image: url("../img/sprite.png");
+	background-repeat: no-repeat;
+	opacity: 0.3;
+}
+
+.main-header .dexter .bookmark::before {
+	background-position: -317px -40px;	
+}
+
+.main-header .dexter .basket::before {
+	background-position: -317px -140px;	
+}
+
+.main-header .dexter .bookmark:hover::before,
+.main-header .dexter .basket:hover::before {
+	opacity: 1;
+}
+
+.main-header .dexter .bookmark:active::before,
+.main-header .dexter .basket:active::before {
+	opacity: 0.3;
+}
+
+.main-header .dexter .order {
+	float: right;
+	width: 130px;
+	padding: 12px 0;
+	padding-left: 20px;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #63a63e;
+}
+
+.main-header .dexter .order:hover {
+	background-color: #5fbb2d;
+}
+
+.main-header .dexter .order:active {
+	color: #aac39b;
+	background-color: #518534;
+}
