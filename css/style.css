@@ -312,3 +312,42 @@ body {
 .main-header .user-block .registration:active {
 	color: #cacaca;
 }
+
+.main-header .top-blocks .main-navigation {
+	width: 888px;
+	padding: 0;
+	padding-left: 26px;
+	padding-right: 26px;
+	background-color: #32425c;
+	border-bottom: 5px solid #293449;
+}
+
+.main-header .main-navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+}
+
+.main-header .main-navigation li {
+	display: inline-block;
+	font-size: 17px;
+	line-height: 18px;
+} 
+
+.main-header .main-navigation a {
+	display: block;
+	padding:  20px 30px 17px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.main-header .main-navigation a:hover,
+.main-navigation .active a {
+	background-color: #293449;
+}
+
+.main-header .main-navigation a:active {
+	color: #a1a4a8;
+	background-color: #1d2739;
+}
